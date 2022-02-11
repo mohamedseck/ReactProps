@@ -1,21 +1,28 @@
 .App {
   text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  /* margin: 10px 10px 0 10px; */
-
 }
-h1{
-  border: #1982c4;
-  border-style: dashed;
-  padding: 20px;
-  border-radius: 10;
-  color:#1982c4;
-  width:90%;
-  }
 
-.avatar{
-  width: 500px;
-  height: 400px;
+.btnShow{
+  background-color:#dee03b;
+  color:#f1faee;
+  font-size:20px;
+  font-weight:bold;
+  border-radius: 5px;
+  width: 200px;
+  height: 50px;
+  margin:5px 0 5px 0 ;
+  box-shadow: 0px 5px 10px 0px #457b9d;
+  border:none;
+}
+.btnHide{
+  background-color:#c59ff6;
+  color:#f1faee;
+  font-size:20px;
+  font-weight:bold;
+  border-radius: 5px;
+  width: 200px;
+  height: 50px;
+  margin:5px 0 5px 0 ;
+  box-shadow: 0px 5px 10px 0px #457b9d;
+  border:none;
 }
